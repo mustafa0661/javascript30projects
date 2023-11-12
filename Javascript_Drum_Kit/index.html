@@ -47,5 +47,24 @@
         </div>
     </div>
 
+    <audio data-key="65"></audio>
+    <audio data-key="83"></audio>
+    <audio data-key="68"></audio>
+    <audio data-key="70"></audio>
+    <audio data-key="71"></audio>
+    <audio data-key="72"></audio>
+    <audio data-key="74"></audio>
+    <audio data-key="75"></audio>
+    <audio data-key="76"></audio>
+
+    <script>
+
+        window.addEventListener('keydown', function(e){
+            const audio = document.querySelector('audio[data-key = "${e.keyCode}"]');
+            if(!audio) return;
+        });
+
+    </script>
+
 </body>
 </html>
