@@ -9,6 +9,11 @@ body{
     color: #fff;
 }
 
+img{
+    max-width: 570px;
+    height: 400px;
+}
+
 .seat{
     background-color: #444451;
     height: 15px;
